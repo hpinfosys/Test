@@ -20,7 +20,7 @@
             <Button
                 x:Name="CounterBtn"
                 Text="Click Here to Open Tab Page" 
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill" Clicked="OnCounterClicked" />
         </VerticalStackLayout>
     </ScrollView>
 
