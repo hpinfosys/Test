@@ -9,7 +9,7 @@ public partial class MainPage : ContentPage
 
 	private async void OnCounterClicked(object sender, EventArgs e)
 	{
-//		await Navigation.PushAsync(new TabPage());
-		await Shell.Current.Navigation.PushModalAsync(new TabPage());
+		await Navigation.PushAsync(new TabPage());
+//		await Shell.Current.Navigation.PushModalAsync(new TabPage());
 	}
 }

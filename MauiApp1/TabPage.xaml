@@ -5,16 +5,10 @@
             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
             android:TabbedPage.ToolbarPlacement="Bottom"
              x:Class="MauiApp1.TabPage">
-
-    <NavigationPage Title="Tab01">
-        <x:Arguments>
-            <local:TabContent Title="Tab01" />
-        </x:Arguments>
-    </NavigationPage>
-    <NavigationPage Title="Tab02">
-        <x:Arguments>
-            <local:TabContent Title="Tab02" />
-        </x:Arguments>
-    </NavigationPage>
-
+    <ContentPage Title="Tab 1">
+        <Label Text="This is Tab 1" />
+    </ContentPage>
+    <ContentPage Title="Tab 2">
+        <Label Text="This is Tab 2" />
+    </ContentPage>             
 </TabbedPage>
