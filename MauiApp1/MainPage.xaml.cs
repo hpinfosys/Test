@@ -7,8 +7,8 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
+	private async void OnCounterClicked(object sender, EventArgs e)
 	{
-		Shell.Current.GoToAsync("TabbedPage");
+		await Navigation.PushAsync(new TabPage());
 	}
 }
