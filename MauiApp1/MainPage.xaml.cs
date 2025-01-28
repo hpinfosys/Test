@@ -9,6 +9,7 @@ public partial class MainPage : ContentPage
 
 	private async void OnCounterClicked(object sender, EventArgs e)
 	{
-		await Navigation.PushAsync(new TabPage());
+//		await Navigation.PushAsync(new TabPage());
+		await DisplayAlert("Alert", "You have been clicked", "OK");
 	}
 }
